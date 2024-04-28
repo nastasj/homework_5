@@ -13,6 +13,7 @@ public class DragAndDropTests {
         Configuration.baseUrl = "https://the-internet.herokuapp.com";
         Configuration.pageLoadStrategy = "eager";
     }
+
     @Test
     void dragAndDropWithActionsFirstTest() {
         open("/drag_and_drop");

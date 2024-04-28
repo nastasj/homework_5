@@ -18,6 +18,5 @@ public class PageLoadingTests {
         $(withTagAndText("button","Solutions")).hover();
         $("[href='https://github.com/enterprise']").click();
         $(".enterprise-hero").shouldHave(text("GitHub Galaxy: A global enterprise event tour"));
-
     }
 }
